@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav"
+    app:startDestination="@id/accountItem_Id">
+
+    <fragment
+        android:id="@id/accountItem_Id"
+        android:name="com.example.jetpackbottomnav.FragmentAccount"
+        android:label="@string/accountFragment"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@id/featuresItem_Id"
+        android:name="com.example.jetpackbottomnav.FragmentFeatures"
+        android:label="fragment_features"
+        tools:layout="@layout/fragment_features" />
+    <fragment
+        android:id="@id/homeItem_Id"
+        android:name="com.example.jetpackbottomnav.FragmentHome"
+        android:label="@string/homeFragment"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@id/searchItem_Id"
+        android:name="com.example.jetpackbottomnav.FragmentSearch"
+        android:label="@string/searchFragment"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@id/wishListItem_Id"
+        android:name="com.example.jetpackbottomnav.FragmentWishlist"
+        android:label="@string/wishListFragment"
+        tools:layout="@layout/fragment_wishlist" />
+</navigation>

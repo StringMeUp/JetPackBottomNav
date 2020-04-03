@@ -1,0 +1,2 @@
+rootProject.name='JetPackBottomNav'
+include ':app'

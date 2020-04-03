@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/accountItem_Id"
+        android:icon="@drawable/ic_account_circle"
+        android:title="@string/itemOne" />
+
+    <item
+        android:id="@+id/featuresItem_Id"
+        android:icon="@drawable/ic_featured_video"
+        android:title="@string/itemTwo" />
+
+    <item
+        android:id="@+id/homeItem_Id"
+        android:icon="@drawable/ic_home"
+        android:title="@string/itemThree" />
+
+    <item
+        android:id="@+id/searchItem_Id"
+        android:icon="@drawable/ic_search"
+        android:title="@string/itemFour" />
+
+    <item
+        android:id="@+id/wishListItem_Id"
+        android:icon="@drawable/ic_favorite_border"
+        android:title="@string/itemFive" />
+
+</menu>

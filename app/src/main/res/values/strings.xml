@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">JetPackBottomNav</string>
+    //menu_resource_items
+    <string name="itemOne">Account</string>
+    <string name="itemTwo">Features</string>
+    <string name="itemThree">Home</string>
+    <string name="itemFour">Search</string>
+    <string name="itemFive">WishList</string>
+    //fragment_layout_text
+    <string name="wishListFragment">This is WishList Fragment</string>
+    <string name="searchFragment">This is Search Fragment</string>
+    <string name="homeFragment">This is Home Fragment</string>
+    <string name="featuredFragment">This is Featured Fragment</string>
+    <string name="accountFragment">This is Account Fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
